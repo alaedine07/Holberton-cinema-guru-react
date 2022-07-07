@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './general.css';
 
-export default function Input(props) {
+export default function SearchBar(props) {
 
     const [input_value, setValue] = useState('');
 
@@ -11,7 +11,7 @@ export default function Input(props) {
 
     return (
         <span>
-            <label htmlFor="input">{props.label}</label>
+            <label htmlFor="SearchBar">{props.label}</label>
             <input
                 type={props.type}
                 className={props.className}
