@@ -19,7 +19,7 @@ export default function Input(props) {
                 onChange={(event) => handleInput(event)}
             >
             </input>
-            {/* <p>{input_value}</p> */}
+            { <p>{input_value}</p> }
             </span>
         );
 }
